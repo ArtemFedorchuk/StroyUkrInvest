@@ -292,7 +292,7 @@
 
              <div class="col-lg-8 form_group">
              <!-- input -->
-               <form action="index.php" method="POST">
+               <form action="mail.php" method="POST">
                 <div class=" form d-flex justify-content-between">
                   <input type="text" name="user_name" placeholder="Ваше имя" required>
                   <input type="text" name="email" placeholder="Ваш E-mail">
@@ -306,7 +306,7 @@
                    <textarea name="comment" cols="40" rows="3" placeholder="Напишите Ваше сообщение"></textarea>
                 </div>
                 <div class="submit d-flex justify-content-between align-items-baseline">
-                  <input type="submit" value="Отправить сообщение">
+                  <input type="submit" value="Отправить данные">
                   <p class="mr-auto"><span>*</span> Спасибо за заполненую вами информацию! Наши специалисты свяжуться с Вами в ближайшее время.</p>
                 </div>
               </form>
