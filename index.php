@@ -20,9 +20,9 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="start-main.css">
+    <link rel="stylesheet" href="Start-main.css">
 
-    <title>portfolio</title>
+    <title>StroyUkrInvest</title>
   </head>
   <body>
 
@@ -98,7 +98,9 @@
           <div class="row">
             <div class="col-12 text-center">
               <div class="servis__offer">
-                <h4>Преимущества</h4>
+                <h4>
+					         <?php echo"Преимущества" ?>
+                </h4>
                 <p class="offer_text">Клиенты выбирают нас потому, что мы делаум лучший сервис</p>
               </div>
             </div>
@@ -232,7 +234,7 @@
 
       <!-- Седьмой Экран! -->
       
-      <!-- section id="form">
+      <section id="form">
         <div class="container form">
           <div class="row text-center">
             <div class="col-12 form_offer">
@@ -240,9 +242,9 @@
               <p class="offer_text">Наши специалисты ответят на все ваши вопросы</p>
             </div>
           </div>
-          <div class="row justify-content-between" > -->
+          <div class="row justify-content-between" >
             <!-- d-md-flex justify-content-md-between -->
-            <!-- <div class="col-lg-3 ">
+             <div class="col-lg-3 ">
               <div class="contacts">
                 <div class="contacts_items">
                   <div class="d-flex">
@@ -286,32 +288,32 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div>
 
-            <!-- <div class="col-lg-8 form_group"> -->
+             <div class="col-lg-8 form_group">
              <!-- input -->
-              <!-- <form action="index.php" method="POST">
-                <div class=" form d-flex justify-content-around">
-                  <input type="text" name="user_name" placeholder="Your Name">
-                  <input type="text" name="email" placeholder="Your E-mail">
+               <form action="index.php" method="POST">
+                <div class=" form d-flex justify-content-between">
+                  <input type="text" name="user_name" placeholder="Ваше имя" required>
+                  <input type="text" name="email" placeholder="Ваш E-mail">
                 </div>
-                 <div class=" form form_xs d-flex justify-content-around">
-                  <input type="text" name="subject" placeholder="Your subject">
-                  <input type="text" name="company" placeholder="Company name">
+                 <div class=" form form_xs d-flex justify-content-between">
+                  <input type="text" name="subject" placeholder="Цель обращения" required>
+                  <input type="text" name="company" placeholder="Имя компании" >
                 </div>
-                <div class="d-flex justify-content-center"> -->
-                  <!-- <input type="text" name="message" placeholder="Write your message"> -->
-                 <!--  <textarea name="comment" cols="40" rows="3" placeholder="Write your message"></textarea>
+                <div class="d-flex flex-column">
+                   <input type="text" name="message" placeholder="Ваш телефон" required>
+                   <textarea name="comment" cols="40" rows="3" placeholder="Напишите Ваше сообщение"></textarea>
                 </div>
                 <div class="submit d-flex justify-content-between align-items-baseline">
-                  <input type="submit" value="Send message">
-                  <p class="mr-auto"><span>*</span> We’ll contact you as as possible. We don’t reply on Monday.</p>
+                  <input type="submit" value="Отправить сообщение">
+                  <p class="mr-auto"><span>*</span> Спасибо за заполненую вами информацию! Наши специалисты свяжуться с Вами в ближайшее время.</p>
                 </div>
               </form>
             </div>
           </div>    
         </div>
-      </section> -->
+      </section>
 
       <!-- Footer -->
 
@@ -367,6 +369,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="start-js.js"></script>
+    <script src="Start-js.js"></script>
   </body>
 </html> 

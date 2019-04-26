@@ -94,5 +94,5 @@ document.oncontextmenu = function(){
     //   body.style.background = '';
     // }
     // setInterval(mod, 3000);
-    return false
+    // return false
 }

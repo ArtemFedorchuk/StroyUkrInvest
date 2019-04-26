@@ -347,26 +347,26 @@ margin-top: -5px;
 	position: relative;
 }
 .slick-prev{
-	opacity: 0.5;
+opacity: 0.5;
 border: none;
 color: #dddddd;
-background-color: #555555;
+background-color: #c0301c;
 height: 38px;
 width: 35px;
 position: absolute;
 left: 0;
-top: 20%;
+bottom: 50%;
 z-index: 9999;
 }
 .slick-next{
-	opacity: 0.5;
+opacity: 0.5;
 border: none;
 color: #dddddd;
-background-color: #555555;
+background-color: #c0301c;
 width: 35px;
 height: 38px;
 position: absolute;
-bottom: 72%;
+bottom: 50%;
 right: 13px;
 }
 
@@ -385,7 +385,7 @@ right: 13px;
 
 .slick-dots li button{
 	border: none;
-	height: 10px;
+	height: 12px;
 	width: 10px;
 	border-radius: 50%;
 	background: rgba(0,0,0,0.5);
@@ -736,7 +736,7 @@ text-transform: uppercase;
 	border: 1px solid #c0301c;
 }
 textarea{
-	width: 98%;
+	width: 100%;
 	height: 104px;
 	border: 1px solid #555555; 
 	color: #555555;
@@ -746,13 +746,12 @@ textarea{
 	line-height: 20px;
 	text-transform: uppercase;
 	padding: 4px;
-	margin-top: -3px;
+	margin-top: 49px;
 }
 .submit{
 	margin-top: 20px
 }
 .submit input{
-	width: 170px;
 	height: 44px;
 	border: 1px solid #555555;
 	color: #555555;
