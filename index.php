@@ -21,10 +21,21 @@
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
     <!-- Main CSS -->
     <link rel="stylesheet" href="Start-main.css">
+    <link rel="stylesheet" type="text/css" href="preload.css">
 
     <title>StroyUkrInvest</title>
   </head>
   <body>
+
+    <section class="preload" id="preloader">
+      <div class="preloader">
+        <div class="preloader-2">
+          <div class="preloader-3">
+            <!-- <h1>%</h1> -->
+          </div>
+        </div>
+    </div>
+  </section>
 
     <div class="modal">
       <div class="d-flex flex-column justify-content-center">
@@ -302,8 +313,8 @@
                   <input type="text" name="company" placeholder="Имя компании" >
                 </div>
                 <div class="d-flex flex-column">
-                   <input type="text" name="message" placeholder="Ваш телефон" required>
-                   <textarea name="comment" cols="40" rows="3" placeholder="Напишите Ваше сообщение"></textarea>
+                   <input type="text" name="telephone" placeholder="Ваш телефон" required>
+                   <textarea name="massage" cols="40" rows="3" placeholder="Напишите Ваше сообщение"></textarea>
                 </div>
                 <div class="submit d-flex justify-content-between align-items-baseline">
                   <input type="submit" value="Отправить данные">
@@ -370,5 +381,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="Start-js.js"></script>
+    <script src="preloader.js"></script>
   </body>
 </html> 
