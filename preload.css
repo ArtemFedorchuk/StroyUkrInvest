@@ -1,7 +1,7 @@
 .preload{
 	width: 100%;
 	height: 100%;
-	background: #000;
+	background: black;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -99,6 +99,16 @@ visibility: hidden;
 	}
 }
 
+@media screen and (max-width: 360px) {
+	.preloader{
+		left: 38%;
+	}
+}
 
+@media screen and (max-width: 320px) {
+	.preloader{
+		left: 38%;
+	}
+}
 
 
