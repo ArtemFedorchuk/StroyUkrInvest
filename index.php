@@ -304,6 +304,14 @@
              <div class="col-lg-8 form_group">
              <!-- input -->
                <form action="mail.php" method="POST">
+
+                <!-- Hidden Required Fields (Обязательные скрытые поля)-->
+                <input type="hidden" name="project_name" value="StroyUkrInvest">
+                <input type="hidden" name="admin_email" value="fedorchuk.zver@gmail.com">
+                <input type="hidden" name="form_subject" value="Письмо с УкрИнвестСтрой">
+                <!-- END Hidden Required Fields (Обязательные скрытые поля)-->
+
+
                 <div class=" form d-flex justify-content-between">
                   <input type="text" name="user_name" placeholder="Ваше имя" required>
                   <input type="text" name="email" placeholder="Ваш E-mail">
@@ -361,7 +369,7 @@
           <div class="row">
             <div class="col-12 footer_text">
               <p>© 2019 Designed by Fedorchuk</p>
-              <p> and Shilov</p>
+              <p> Developer Fedorchuk Artem</p>
               <p> +3 (805) 077 29 006</p>
               <p> +3 (806) 351 46 051</p>
             </div>
@@ -380,6 +388,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="mail/script.js"></script>
     <script src="Start-js.js"></script>
     <script src="preloader.js"></script>
   </body>
