@@ -61,16 +61,16 @@
 	position: relative;
 }
 
-.preloader-3 h1{
-	color: white;
-	position: absolute;
-	right: 30%;
-}
+/*.proc-preload h1{
+	color: black;
+	font-size: 60px;
+}*/
 
 .none{
 opacity: 0;
 visibility: hidden;
 }
+
 
 @keyframes lizard{
 	from{
