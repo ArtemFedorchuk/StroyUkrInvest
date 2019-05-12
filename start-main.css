@@ -1,4 +1,4 @@
- ----- specification -----*/
+	 ----- specification -----*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
  @font-face {
@@ -147,11 +147,15 @@ line-height: 24px;
 font-size: 55px;
 letter-spacing: 4px;
 text-shadow: 0px 0px 15px rgba(0,0,0, 0.9);
+margin-bottom: 250px;
+display: block;
 }
+
 .header__h1{
 margin-top: 262px;
 margin-left: -19px;
 }
+
 .header__text{
 display: inline-block;
 font-size: 20px;
@@ -322,13 +326,29 @@ margin: 0 auto;
 }
 
 .about h4{
+	margin-top: 180px;
+	margin-bottom: 100px;
 	color: #c3c5c4
+}
+.about h6{
+	color: white;
+	margin-bottom: 50px;
 }
 .about h4:after{
 	background: #c3c5c4
 }
 .about .offer_text{
-	color: #c3c5c4
+}
+
+.about li{
+	color: #c3c5c4;
+	list-style: square outside;
+	margin-bottom: 10px;
+	transition: .25s ease;
+	cursor: pointer;
+}
+.about li:hover{
+	color: gold;
 }
 
 .about__text{
@@ -342,6 +362,9 @@ margin-top: -5px;
 }
 
 /*SlIDER COURUSELE*/
+#slider li{
+	list-style: none;
+}
 .big-slide{
 	margin-top: 30px;
 	position: relative;
@@ -356,7 +379,7 @@ width: 35px;
 position: absolute;
 left: 0;
 bottom: 50%;
-z-index: 9999;
+z-index: 2;
 }
 .slick-next{
 opacity: 0.5;
@@ -398,135 +421,6 @@ background: #c0301c !important;
 opacity: 1;
 }
 
-
-    /*------ Четвертый Экран ------*/
-
-.latest_works{
-	margin-top: 17px;
-}
-.latest_works h4{
-	margin-bottom: 60px;
-}
-.works_menu__item a{
-	color: #555555;
-	font-family: "Roboto Slab";
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-}
-.works_menu__item a:hover{
-	color: #c0301c
-}
-.works_offset-4{
-	margin-left: 29.333333%;
-}
-.works_menu{
-	margin-top: -18px;
-	margin-bottom: 75px;
-}
-.works_images{
-	position: relative;
-	max-width: 360px;
-	max-height: 350px;
-	margin-left: 0;
-	margin-right: 0;
-	margin-bottom: 20px;
-}
-
-.work_images__hover{
-	width: 360px;
-	height: 320px;
-	background-color:rgba(192, 48, 28, 0.7);
-	position: absolute;
-	opacity: 0;
-	transition: .3s ease;
-	/*top: 40%;
-	left: 30%;*/
-}
-.work_images__hover:hover{
-	opacity: 1;
-	/*top: 40%;
-	left: 30%;*/
-}
-.work_images__hover-wraper{
-	position: relative;
-	margin-top: 35%
-}
-.work_images__hover-wraper h5{
-	text-transform: capitalize;
-	color: #ffffff;
-	font-family: Montserrat;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
-	position: absolute;
-	top: -22px;
-	left: 118px;
-}
-.work_images__hover-wraper span{
-	color: #ffffff;
-	font-family: "Roboto Slab";
-	font-size: 12px;
-	font-weight: 400;
-	line-height: 24px;
-	position: absolute;
-	top: 5px;
-	left: 150px;
-}
-.work_images__hover-wraper a{
-	color: #c0301c;
-	font-family: "Roboto Slab";
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 24px;
-	text-transform: uppercase;
-	background-color: #ffffff;
-	padding: 8px 25px;
-	position: absolute;
-	top: 50px;
-	left: 127px;
-}
-.work_images__hover-wraper a:hover{
-	background: gold;
-	color: #000000;
-}
-
-.love_work{
-	margin-top: 64px;
-	background: url(Images/love_work.jpg) no-repeat top center / auto;
-	margin-bottom: 12px
-}
-
-.love_work__offer{
-	display: block;
-	color: #ffffff;
-	font-family: "Roboto Slab";
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 44px;
-	margin-top: 90px;
-	margin-bottom: 43px;
-}
-
-.work__btn{
-display: inline-block;
-color: #ffffff;
-font-family: Montserrat;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-transform: uppercase;
-padding: 11px 34px 11px 25px;
-border-radius: 2px;
-border: 2px solid #ffffff;
-margin-left: -4px;
-margin-bottom: 103px;
-}
-
-.work__btn:hover{
-	border-color: gold;
-	color: gold
-}
 
 /* -----MAPS-----*/
 .map{
@@ -767,6 +661,7 @@ textarea{
 	color: gold;
 	background: rgba(0,0,0, 0.6);
 	border: 1px solid #555555;
+	cursor: pointer;
 }
 .submit p{
 	color: #555555;
@@ -836,7 +731,9 @@ textarea{
 	text-transform: uppercase;
 	margin-top: -12px;
 }
-
+.footer_text a:hover{
+	color :red;
+}
 .footer-arrow{
 	margin-top: 60px;
 }
@@ -887,13 +784,14 @@ opacity: 0
 		margin-top: 100px;
 	}
 	.logo{
-	padding-top: 29px;
-	text-align: center;
-	
+		text-align: center;
 	}
 	/*#slider{
 		display: none;
 	}*/
+	.form input {
+		width: 100%;
+	}
 }
 @media screen and (max-width: 768px) {
 
@@ -919,7 +817,9 @@ opacity: 0
 	margin-left: -21%;
 	margin-bottom: -70px
 }
-
+.h1{
+	line-height: 55px;
+}
 .img_post{
 	margin-bottom: 35px;
 }
@@ -940,6 +840,13 @@ opacity: 0
 }
 .contacts{
     margin-bottom: 35px;
+}
+.about h6{
+margin-top: 40px;
+}
+.form input {
+	width: 100%;
+}
 }
 
 @media screen and (max-width: 575px) {

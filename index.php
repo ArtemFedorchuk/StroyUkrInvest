@@ -31,29 +31,21 @@
       <div class="preloader">
         <div class="preloader-2">
           <div class="preloader-3">
-            <!-- <h1>%</h1> -->
+            <div class="logo-stroy">
+              
+            </div>
           </div>
         </div>
     </div>
   </section>
 
-    <div class="modal">
-      <div class="d-flex flex-column justify-content-center">
-        <span>Вы точно желаете нам позвонить?</span>
-        <button class="btn mt-5 no"> No</button>
-        <button class="btn mt-5 yes"> Yes</button>
-      </div>
-    </div>
+
 
 
       
     <!-- Модальное окно на запрет кликаправой кнопкой mouse -->
-    <!-- <div class="mod-fix">
-      <div class="mousBtn-off">
-        <pre>Запрещено</pre>
-      </div>
-    </div>
- -->
+
+
       <header id="header" class="header">
           <div class="header-wrap ">
             <div class="container">
@@ -68,16 +60,16 @@
               <div class="col-lg-10 d-none d-lg-block menu-tog ">
                 <nav class="menu d-flex justify-content-end  mr-auto animated zoomInRight ">
                   <div class="menu__item">
-                    <a href="#services">Преимущества</a>
+                    <a href="#services">Про нас</a>
                   </div>
                   <div class="menu__item">
-                    <a href="#about">Про нас</a>
+                    <a href="#about">Виды работ</a>
                   </div>
                   <div class="menu__item">
-                    <a href="#love-work">Нааши работы</a>
+                    <a href="#love-work">Контакты</a>
                   </div>
                   <div class="menu__item">
-                    <a href="#map">Контакты</a>
+                    <a href="#map">Написать нам</a>
                   </div>
                 </nav>
               </div>
@@ -95,7 +87,7 @@
                     <span class="header__text mt-1">Добро пожаловать в нашу компанию</span><br>
                     <span class="h1 animated zoomIn">Stroy Ukr Invest</span><br>
                     <span class="header__text"></span><br>
-                    <a href="#" class="header__btn">Заказать звонок</a>
+                    <!-- <a href="#" class="header__btn">Заказать звонок</a> -->
                   </div>
                 </div>
               </div> 
@@ -110,9 +102,9 @@
             <div class="col-12 text-center">
               <div class="servis__offer">
                 <h4>
-					         <?php echo"Преимущества" ?>
+					         <?php echo"Про нас" ?>
                 </h4>
-                <p class="offer_text">Клиенты выбирают нас потому, что мы делаум лучший сервис</p>
+                <p class="offer_text">OOO "СТРОЙУКРИНВЕСТ" - это команда профессионалов, <br> объединившая молодых специалистов и опытных квалифицированных сотрудников.<br> Наши заказчики всегда уверены в нас как в добросовестном, <br> надежном и профессиональном партнере. </p>
               </div>
             </div>
           </div>
@@ -120,19 +112,17 @@
             <div class="col-lg-4 text-center">
               <div class="servic__content">
                 <div class="servic__content_icon-1">
-                  <i class="fas fa-dollar-sign"></i>
+                  <i class="fas fa-hands-helping"></i>
                 </div>
-                  <h6>Скидки</h6>
-                  <p>Wow Дизайн - это дизайн, от которого поситители вашего сайта будут в восторге!</p>
+                  <h6>Надежность</h6>
               </div>
             </div>
             <div class="col-lg-4 text-center">
               <div class="servic__content">
                 <div class="servic__content_icon-2">
-                  <i class="fas fa-taxi"></i>
+                  <i class="fas fa-check-circle"></i>
                 </div>
                   <h6>Качество</h6>
-                  <p>Фирма веников не вяжет, а если вяжет, то фирменные!</p>
               </div>
             </div>
             <div class="col-lg-4 text-center">
@@ -140,13 +130,15 @@
                 <div class="servic__content_icon-3">
                   <i class="fas fa-diagnoses"></i>
                 </div>
-                  <h6>Экспертная поддержка</h6>
-                  <p>Наши эксперты всегда помогут и подскажут Вам, как правильно и в кратчайшие сроки решить вашу задачу</p>
+                  <h6>Проффессионализм</h6>
               </div>
             </div>
           </div>
+            
+          </div>
         </div>
       </section>
+
 
       <!-- Третий Экран -->
 
@@ -154,25 +146,62 @@
         <div class="container">
           <div class="row">
             <div class="col-12 text-center">
-              <h4>Про нас</h4>
-              <p class="offer_text">Вы устали изучать информацию о тех, кто делает сайты. <br>
-                Выдыхайте - вы наконец попали в нужное место к нужным людям.</p>
+              <h4>Виды работ и услуги</h4>
+              <p class="offer_text"></p>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-6 col-12 text-sm-center m-sm-auto">
-              <p class="about__text text-left">Мы, команда специалистов, которая выполнит любые задачи!<br>
-                Разработаем красивый и современный дизайн!<br>
-                Поддержка и обслуживание сайта на на протяжении всей его жизни!<br>
-                Модернизация и внидрение новых технологий!
-                </p>
+            <div class="col-lg-3 col-md-6 col-12 text-left text-md-left">
+                <h6>Строительные работы</h6>
+              <ul class="text-lg-left">
+                <li>Земляные работы</li>
+                <li>Бетонные работы</li>
+                <li>Устройство фундамента</li>
+                <li>Возведение стен</li>
+                <li>Установка перекрытий</li>
+                <li>Кровельные работы</li>
+                <li>Монтаж окон и дверей</li>
+                <li>Фасадные работы</li>
+              </ul>
             </div>
-            <div class="col-lg-6">
-              <p class="about__text">В нашей команде работают талантливые специалисты со всего мира. <br>
-                Мы взаимодействуем удаленно и делаем это чертовски слаженно. <br>
-                Вам не нужно платить за аренду офиса, водичку в кулере, уборщицу тётю Зину - у нас их нет
-              </p>
+            <div class="col-lg-3 col-md-6 col-12 text-left text-md-left">
+              <h6>Ремонтно-отделочные работы</h6>
+              <ul class="text-lg-left">
+                <li>Демонтажные работы</li>
+                <li>Подготовительные работы</li>
+                <li>Сантехнические работы</li>
+                <li>Электромонтажные работы</li>
+                <li>Вентиляционные работы</li>
+                <li>Отделочные работы</li>
+                <li>Малярные работы</li>
+                <li>Укладка кафеля</li>
+                <li>Шпаклевка стен</li>
+                <li>Штукатурка стен</li>
+              </ul>  
             </div>
+            <div class="col-lg-3 col-md-6 col-12 text-left text-md-left">
+              <h6>Строительные услуги</h6>
+              <ul class="text-lg-left">
+                <li>Строительство коттеджей и домов</li>
+                <li>Строительство складов и ангаров</li>
+                <li>Строительство гаражей</li>
+                <li>Строительство подсобных помещений</li>
+              </ul>  
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-left text-md-left">
+              <h6>Услуги по ремонту</h6>
+              <ul class="text-lg-left">
+                <li>Внутренняя отделка в частном доме, коттедже</li>
+                <li>Ремонт квартир</li>
+                <li>Ремонт кухни</li>
+                <li>Ремонт санузла</li>
+                <li>Ремонт детской комнаты</li>
+                <li>Ремонт офисов</li>
+                <li>Балкон под ключ</li>
+                <li>Монтаж гипсокартона</li>
+                <li>Поклейка обоев</li>
+              </ul> 
+            </div>  
           </div>
 
           <section id="slider">
@@ -180,27 +209,27 @@
                 <div class="col-lg-12 text-center">
                   <div class="big-slide">
                     <div>
-                      <img class="slider__img" src="Images/1.jpg" alt="layer">
+                      <img class="slider__img" src="Images/larek.jpg" alt="layer">
                       
                     </div>
                     <div>
-                      <img class="slider__img" src="Images/2.jpg" alt="layer">
+                      <img class="slider__img" src="Images/magnat.jpg" alt="layer">
                       
                     </div>
                     <div>
-                      <img class="slider__img" src="Images/3.jpg" alt="layer">
+                      <img class="slider__img" src="Images/balkon.jpg" alt="layer">
                       
                     </div>
                     <div>
-                      <img class="slider__img" src="Images/4.jpg" alt="layer">
+                      <img class="slider__img" src="Images/reshetka.jpg" alt="layer">
                       
                     </div>
                     <div>
-                      <img class="slider__img" src="Images/2.jpg" alt="layer">
+                      <img class="slider__img" src="Images/fasad.jpg" alt="layer">
                       
                     </div>
                     <div>
-                      <img class="slider__img" src="Images/3.jpg" alt="layer">
+                      <img class="slider__img" src="Images/potolok.jpg" alt="layer">
                       
                     </div>     
                   </div>
@@ -211,22 +240,6 @@
       </section>
 
   
-      <!-- Четвертый Экран -->
-
-      
-<!-- 
-      <section class="love_work" id="love-work">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 text-center">
-              <span class="love_work__offer">Do you like OUR WORK so far?<br>
-              Let's talk about YOUR PROJECT!</span>
-              <a href="#" class="work__btn">Get in Touch</a>
-            </div>
-          </div>
-        </div>
-      </section> -->
-
       <!-- maps -->
 
       <section class="map" id="map">
@@ -267,7 +280,7 @@
                     </div>
                   </div>
                   <div class="adress">
-                    <p>ul. Grigoriya Tykvy dom 34 kv. 9<br> Ordzhonikidze, Dnipropetrovska, 53300 Ukraine</p>
+                    <p>Никополь, проспект Трубников 91 <br>Покров, ул. Центральная 33</p>
                   </div>
                 </div>
                 <div class="contacts_items">
@@ -280,7 +293,8 @@
                     </div>
                   </div>
                   <div class="adress">
-                    <p><a href="tel:+380507729006">+3 8050 7729006</a>,<a href="tel:+38063 5146051">+3 80635146051</a>, <br><a href="tel:+380968949471">+3 8096 8949471</a></p>
+                    <p><a href="tel:+380686804355">+380(68)6804355</a><br>
+                      <a href="tel:+380950425665">+380950425665</a></p>
                   </div>
                 </div>
                 <div class="contacts_items">
@@ -293,8 +307,7 @@
                     </div>
                   </div>
                   <div class="adress">
-                    <p><a href="#">fedorchuk.zver@gmail.com</a><br>
-                      <a href="#">fedorchuk_zver@mail.ru</a>
+                    <p><a href="igorandreevichua@gmail.com">igorandreevichua@gmail.com</a>
                     </p>
                   </div>
                 </div>
@@ -307,7 +320,7 @@
 
                 <!-- Hidden Required Fields (Обязательные скрытые поля)-->
                 <input type="hidden" name="project_name" value="StroyUkrInvest">
-                <input type="hidden" name="admin_email" value="fedorchuk.zver@gmail.com">
+                <input type="hidden" name="admin_email" value="igorandreevichua@gmail.com">
                 <input type="hidden" name="form_subject" value="Письмо с УкрИнвестСтрой">
                 <!-- END Hidden Required Fields (Обязательные скрытые поля)-->
 
@@ -317,7 +330,7 @@
                   <input type="text" name="email" placeholder="Ваш E-mail">
                 </div>
                  <div class=" form form_xs d-flex justify-content-between">
-                  <input type="text" name="subject" placeholder="Цель обращения" required>
+                  <input type="text" name="subject" placeholder="Цель обращения">
                   <input type="text" name="company" placeholder="Имя компании" >
                 </div>
                 <div class="d-flex flex-column">
@@ -346,18 +359,13 @@
           <div class="row">
             <div class="col-12">
               <div class="social_menu d-flex justify-content-center">
-                <div class="social_menu__items">
+                <!-- <div class="social_menu__items">
                   <a href="https://www.instagram.com/fedorchuk.artem"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="social_menu__items">
+                </div> -->
+                <!-- <div class="social_menu__items">
                   <a href="https://www.facebook.com/fedorchuk.zver"><i class="fab fa-facebook-square"></i></a>
-                </div>
-                <div class="social_menu__items">
-                  <a href="#"><i class="fab fa-vk"></i></a>
-                </div>
-                <div class="social_menu__items">
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </div>
+                </div> -->
+
               </div>
             </div>
           </div>
@@ -368,10 +376,10 @@
           </div>
           <div class="row">
             <div class="col-12 footer_text">
-              <p>© 2019 Designed by Fedorchuk</p>
-              <p> Developer Fedorchuk Artem</p>
-              <p> +3 (805) 077 29 006</p>
-              <p> +3 (806) 351 46 051</p>
+              <p><a href="https://www.instagram.com/fedorchuk.artem">© 2019 Designe by Fedorchuk Artem</a></p>
+              <p><a href="https://www.facebook.com/fedorchuk.zver">Developer Fedorchuk Artem</a></p>
+              <p><a href="tel:+380507729006">+3 8(050) 77 29 006</a></p>
+              <p><a href="tel:+380635146051">+3 8(050) 77 29 006</a></p>
             </div>
           </div>
         </div>

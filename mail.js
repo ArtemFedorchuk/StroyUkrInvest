@@ -2,14 +2,14 @@ $(document).ready(function() {
 	//E-mail Ajax Send
 	$("form").submit(function() { //Change
 		var th = $(this);
-		alert('wow')
+		alert('Вы точно желаете отправить данные?')
 
 		$.ajax({
 			type: "POST",
 			url: "mail.php", //Change
 			data: th.serialize()
 		}).done(function() {
-			alert("Thank you!");
+			alert("Спасибо, мы свяжемся с Вами ближайшее время!");
 			setTimeout(function() {
 				// Done Functions
 				th.trigger("reset");
