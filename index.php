@@ -66,10 +66,10 @@
                     <a href="#about">Виды работ</a>
                   </div>
                   <div class="menu__item">
-                    <a href="#love-work">Контакты</a>
+                    <a href="#map">Контакты</a>
                   </div>
                   <div class="menu__item">
-                    <a href="#map">Написать нам</a>
+                    <a href="#form">Написать нам</a>
                   </div>
                 </nav>
               </div>
@@ -242,14 +242,14 @@
   
       <!-- maps -->
 
-      <section class="map" id="map">
-        <div class="container">
+      <section class="map">
+        <div class="container-fluid">
           <div class="row">
             <div class="col text-center">
               <div class="form_offer">
                 <h4>Как нас найти</h4>
               </div>
-              <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa854e0f6db71819684d2dd3f4091cc81d2c5999d06a2e492e46e5c272d33e210&amp;width=100%25&amp;height=440&amp;lang=ru_RU&amp;scroll=true"></script>
+              <div id="map"></div>
             </div>
           </div>
         </div>
@@ -398,6 +398,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="mail.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIYjbb4cnpanhtNPe5f0q1sclxHemxwCo&callback=initMap" async defer></script>
+    <script src="google-map.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script src="type-text.js"></script>
     <script src="Start-js.js"></script>

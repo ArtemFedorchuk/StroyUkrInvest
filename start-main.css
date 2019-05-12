@@ -424,6 +424,12 @@ opacity: 1;
 
 /* -----MAPS-----*/
 .map{
+	width: 100vw;
+}
+
+#map{
+	width: 100% !inherit;
+	height: 500px;
 	margin-top: 50px;
 	margin-bottom: 60px;
 }
