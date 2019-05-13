@@ -58,7 +58,7 @@
                   </div>
               </div>
               <div class="col-lg-10 d-none d-lg-block menu-tog ">
-                <nav class="menu d-flex justify-content-end  mr-auto animated zoomInRight ">
+                <nav class="menu d-flex justify-content-end mr-auto animated zoomInRight ">
                   <div class="menu__item">
                     <a href="#services">Про нас</a>
                   </div>

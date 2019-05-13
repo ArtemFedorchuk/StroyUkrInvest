@@ -1,4 +1,5 @@
 function initMap() {
+
         // Styles a map in night mode.
         var map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 47.580484, lng: 34.344076},
@@ -84,6 +85,13 @@ function initMap() {
             }
           ]
         });
+        var pos = {lat: 47.580484, lng: 34.344076};
+        var marker = new google.maps.Marker({
+            position: pos,
+            map: map,
+            title: 'Наш Офис СтройУкрИнвест',
+            icon: ''
+            });
       }
 
 
