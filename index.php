@@ -22,7 +22,16 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="Start-main.css">
     <link rel="stylesheet" type="text/css" href="preload.css">
-
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#600af4">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Favicon END-->
     <title>StroyUkrInvest</title>
   </head>
   <body>
@@ -84,9 +93,9 @@
               <div class="container">
                 <div class="row header__h1">
                   <div class="col-12 text-center">
-                    <span class="header__text mt-1">Добро пожаловать в нашу компанию</span><br>
+                    <!-- <span class="header__text mt-1">Добро пожаловать в нашу компанию</span><br> -->
                     <span class="h1 animated zoomIn">Stroy Ukr Invest</span><br>
-                    <span class="header__text"></span><br>
+                    <!-- <span class="header__text"></span><br> -->
                     <!-- <a href="#" class="header__btn">Заказать звонок</a> -->
                   </div>
                 </div>
@@ -130,7 +139,7 @@
                 <div class="servic__content_icon-3">
                   <i class="fas fa-diagnoses"></i>
                 </div>
-                  <h6>Проффессионализм</h6>
+                  <h6>Профессионализм</h6>
               </div>
             </div>
           </div>
@@ -245,7 +254,7 @@
       <section class="map">
         <div class="container-fluid">
           <div class="row">
-            <div class="col text-center">
+            <div class="col text-center p-0 m-0">
               <div class="form_offer">
                 <h4>Как нас найти</h4>
               </div>
@@ -339,7 +348,7 @@
                 </div>
                 <div class="submit d-flex justify-content-between align-items-baseline">
                   <input type="submit" value="Отправить данные">
-                  <p class="mr-auto"><span>*</span> Спасибо за заполненую вами информацию! Наши специалисты свяжуться с Вами в ближайшее время.</p>
+                  <p class="mr-auto"><span>*</span> Спасибо за заполненую вами информацию! Наши специалисты свяжутся с вами в ближайшее время.</p>
                 </div>
               </form>
             </div>
@@ -376,10 +385,10 @@
           </div>
           <div class="row">
             <div class="col-12 footer_text">
-              <p><a href="https://www.instagram.com/fedorchuk.artem">© 2019 Designe by Fedorchuk Artem</a></p>
+              <p><a href="https://www.instagram.com/fedorchuk.artem">© 2019 Design by Fedorchuk Artem</a></p>
               <p><a href="https://www.facebook.com/fedorchuk.zver">Developer Fedorchuk Artem</a></p>
               <p><a href="tel:+380507729006">+3 8(050) 77 29 006</a></p>
-              <p><a href="tel:+380635146051">+3 8(050) 77 29 006</a></p>
+              <p><a href="tel:+380635146051">+3 8(063) 51 46 051</a></p>
             </div>
           </div>
         </div>

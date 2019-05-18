@@ -89,7 +89,7 @@ function initMap() {
         var marker = new google.maps.Marker({
             position: pos,
             map: map,
-            title: 'Наш Офис СтройУкрИнвест',
+            title: 'СтройУкрИнвест',
             icon: ''
             });
       }
