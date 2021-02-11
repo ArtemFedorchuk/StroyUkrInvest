@@ -20,7 +20,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
     <!-- Main CSS -->
-    <link rel="stylesheet" href="Start-main.css">
+    <link rel="stylesheet" href="start-main.css">
     <link rel="stylesheet" type="text/css" href="preload.css">
     
     <!-- Favicon -->
